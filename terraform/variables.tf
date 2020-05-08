@@ -10,5 +10,9 @@ variable region {
 }
 
 variable disk_image {
-  description = "Disk image"
+  description = "Disk image"  
 }
+
+variable count_app {
+	default = 1
+}	
